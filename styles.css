@@ -1,64 +1,36 @@
-/* Estilos Globais */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    background-color: #e0f7fa; /* Fundo em tom pastel frio */
-    color: #2e4053;
+    padding: 0;
+    background-color: hsl(0, 0%, 95%); /* Light grey background */
 }
 
 header {
-    text-align: center;
-    background-color: #00796b; /* Verde frio pastel */
-    padding: 20px;
-}
-
-.top-bar h1 {
-    color: #ffd700; /* Dourado para o nome da empresa */
-    font-size: 2.5em;
-}
-
-.banner {
-    background-color: #b2ebf2; /* Azul claro pastel */
-    padding: 20px;
+    background-color: hsl(0, 0%, 20%); /* Dark grey for better contrast */
+    color: hsl(0, 0%, 100%); /* White text */
+    padding: 1rem;
     text-align: center;
 }
 
-.banner img {
-    max-width: 80%;
-    height: auto;
-    border-radius: 8px;
+main {
+    padding: 2rem;
 }
 
-address {
-    margin-top: 15px;
-    font-style: normal;
-}
-
-.products, .history, .events {
-    padding: 40px 20px;
-    text-align: center;
-}
-
-h2 {
-    color: #00796b; /* Verde frio pastel */
-}
-
-.product-list {
-    display: flex;
-    justify-content: space-around;
-}
-
-.product-item {
-    background-color: #ffffff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 30%;
+section {
+    background-color: hsl(0, 0%, 100%); /* White background */
+    color: hsl(0, 0%, 20%); /* Dark grey text */
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 footer {
-    background-color: #004d40; /* Verde escuro frio */
-    color: white;
+    background-color: hsl(0, 0%, 20%); /* Dark grey for better contrast */
+    color: hsl(0, 0%, 100%); /* White text */
     text-align: center;
-    padding: 20px;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
