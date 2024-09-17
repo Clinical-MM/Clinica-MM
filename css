@@ -1,0 +1,64 @@
+/* Estilos Globais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #e0f7fa; /* Fundo em tom pastel frio */
+    color: #2e4053;
+}
+
+header {
+    text-align: center;
+    background-color: #00796b; /* Verde frio pastel */
+    padding: 20px;
+}
+
+.top-bar h1 {
+    color: #ffd700; /* Dourado para o nome da empresa */
+    font-size: 2.5em;
+}
+
+.banner {
+    background-color: #b2ebf2; /* Azul claro pastel */
+    padding: 20px;
+    text-align: center;
+}
+
+.banner img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 8px;
+}
+
+address {
+    margin-top: 15px;
+    font-style: normal;
+}
+
+.products, .history, .events {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+h2 {
+    color: #00796b; /* Verde frio pastel */
+}
+
+.product-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.product-item {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+}
+
+footer {
+    background-color: #004d40; /* Verde escuro frio */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
