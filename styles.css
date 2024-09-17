@@ -1,36 +1,117 @@
-body {
-    font-family: Arial, sans-serif;
+/* styles.css */
+
+/* Basic reset */
+body, h1, h2, h3, p {
     margin: 0;
     padding: 0;
-    background-color: hsl(0, 0%, 95%); /* Light grey background */
+    box-sizing: border-box;
 }
 
+/* Overall body styling */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Header styling */
 header {
-    background-color: hsl(0, 0%, 20%); /* Dark grey for better contrast */
-    color: hsl(0, 0%, 100%); /* White text */
-    padding: 1rem;
+    background: linear-gradient(to bottom, #003366, #66cc99); /* Blue and green gradient */
+    color: gold;
+}
+
+.top-bar {
+    padding: 20px;
     text-align: center;
 }
 
-main {
-    padding: 2rem;
+.top-bar h1 {
+    font-size: 2.5em;
 }
 
-section {
-    background-color: hsl(0, 0%, 100%); /* White background */
-    color: hsl(0, 0%, 20%); /* Dark grey text */
-    padding: 1rem;
-    margin-bottom: 1rem;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+.top-bar p {
+    font-size: 1.2em;
 }
 
+/* Banner styling */
+.banner {
+    text-align: center;
+    padding: 20px;
+    background-color: #e6e6e6; /* Light grey background for the banner */
+}
+
+.banner img {
+    max-width: 100%;
+    height: auto;
+}
+
+.banner address {
+    font-style: normal;
+    margin-top: 10px;
+    font-size: 1em;
+}
+
+/* Products section styling */
+.products {
+    padding: 20px;
+}
+
+.products h2 {
+    font-size: 2em;
+    color: #003366; /* Dark blue */
+    text-align: center;
+}
+
+.product-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product-item {
+    text-align: center;
+    margin: 10px;
+}
+
+.product-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-item h3 {
+    font-size: 1.5em;
+    color: #003366; /* Dark blue */
+}
+
+.product-item p {
+    font-size: 1.2em;
+}
+
+/* History section styling */
+.history {
+    padding: 20px;
+    background-color: #f2f2f2; /* Light grey background */
+}
+
+.history h2 {
+    font-size: 2em;
+    color: #003366; /* Dark blue */
+}
+
+/* Events section styling */
+.events {
+    padding: 20px;
+}
+
+.events h2 {
+    font-size: 2em;
+    color: #003366; /* Dark blue */
+}
+
+/* Footer styling */
 footer {
-    background-color: hsl(0, 0%, 20%); /* Dark grey for better contrast */
-    color: hsl(0, 0%, 100%); /* White text */
+    background-color: black;
+    color: white;
     text-align: center;
-    padding: 1rem;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+    padding: 10px;
+    font-size: 0.9em;
 }
