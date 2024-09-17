@@ -1,8 +1,6 @@
-/* styles.css */
-
 /* Basic reset */
 body, h1, h2, h3, p {
-    margin: 0;
+    margin: 0; /* Ajustado para 0 para remover o espaço indesejado */
     padding: 0;
     box-sizing: border-box;
 }
@@ -10,14 +8,19 @@ body, h1, h2, h3, p {
 /* Overall body styling */
 body {
     font-family: Arial, sans-serif;
+<<<<<<< Updated upstream
     color: #333;
     background-color: #f2f2f2; /* Light grey background for the body */
+=======
+    color: #333; /* Texto padrão em cinza escuro */
+    background-color: #fff; /* Fundo branco para todo o corpo */
+>>>>>>> Stashed changes
 }
 
 /* Header styling */
 header {
-    background: linear-gradient(to bottom, #003366, #66cc99); /* Blue and green gradient */
-    color: gold;
+    background: linear-gradient(to bottom, #003366, #66cc99); /* Gradiente de azul e verde */
+    color: gold; /* Texto dourado */
 }
 
 .top-bar {
@@ -37,7 +40,7 @@ header {
 .banner {
     text-align: center;
     padding: 20px;
-    background-color: #e6e6e6; /* Light grey background for the banner */
+    /* Removido o fundo cinza */
 }
 
 .banner img {
@@ -49,16 +52,18 @@ header {
     font-style: normal;
     margin-top: 10px;
     font-size: 1em;
+    color: #003366; /* Cor azul escuro para o endereço */
 }
 
 /* Products section styling */
 .products {
     padding: 20px;
+    /* Fundo branco para manter a uniformidade com o corpo */
 }
 
 .products h2 {
     font-size: 2em;
-    color: #003366; /* Dark blue */
+    color: #003366; /* Azul escuro para o título */
     text-align: center;
 }
 
@@ -71,6 +76,7 @@ header {
 .product-item {
     text-align: center;
     margin: 10px;
+    flex: 1 1 200px; /* Responsividade */
 }
 
 .product-item img {
@@ -80,7 +86,7 @@ header {
 
 .product-item h3 {
     font-size: 1.5em;
-    color: #003366; /* Dark blue */
+    color: #003366; /* Azul escuro para o título do produto */
 }
 
 .product-item p {
@@ -90,29 +96,38 @@ header {
 /* History section styling */
 .history {
     padding: 20px;
-    background-color: #f2f2f2; /* Light grey background */
+    /* Fundo branco para manter a uniformidade com o corpo */
 }
 
 .history h2 {
     font-size: 2em;
-    color: #003366; /* Dark blue */
+    color: #003366; /* Azul escuro para o título */
 }
 
 /* Events section styling */
 .events {
     padding: 20px;
+    /* Fundo branco para manter a uniformidade com o corpo */
 }
 
 .events h2 {
     font-size: 2em;
-    color: #003366; /* Dark blue */
+    color: #003366; /* Azul escuro para o título */
 }
 
 /* Footer styling */
 footer {
-    background-color: black;
-    color: white;
+    padding: 20px;
     text-align: center;
-    padding: 10px;
-    font-size: 0.9em;
+    background-color: #003366; /* Fundo azul escuro */
+    color: gold; /* Texto dourado */
+}
+
+footer a {
+    color: gold; /* Links dourados */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline; /* Sublinhado ao passar o mouse */
 }
